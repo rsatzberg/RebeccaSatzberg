@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {color: #000676;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+body{
+	background: #A9AFF0; 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000676;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #D36DC6;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #FF0000;
+  color: white;
+}
+
+/* SoundCloud */
+.fa-soundcloud {
+  background: #D34007;
+  color: white;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    clear:both;
+}
+p {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 49%;
+  padding: 3px;
+}
